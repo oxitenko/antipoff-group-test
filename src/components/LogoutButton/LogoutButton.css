@@ -1,0 +1,22 @@
+.logout {
+    display: flex;
+    justify-content: end;
+    margin: 0 80px 0 0;
+    padding: 32px 0 0 0;
+}
+
+.logout_btn {
+    width: 81px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--grayLight);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--grayLight);
+    font-family: var(--mainFont);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.187%;
+    cursor: pointer;
+}
