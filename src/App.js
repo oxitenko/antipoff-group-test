@@ -1,9 +1,10 @@
 import './App.css';
-import {useDispatch, useSelector} from "react-redux";
+import {useDispatch} from "react-redux";
 import {useEffect} from "react";
 import {getUsersFetch} from "./redux-saga/usersState";
 import Main from "./components/Main/Main";
 import {Route, Routes} from "react-router-dom";
+import AboutUser from "./components/AboutUser/AboutUser";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <main className="App">
             <Routes>
                 <Route path="/" element={<Main/>}/>
+                <Route path="about-user/:id" element={<AboutUser/>}/>
             </Routes>
         </main>
     );

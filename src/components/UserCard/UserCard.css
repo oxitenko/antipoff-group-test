@@ -1,4 +1,6 @@
 .user-card {
+    display: flex;
+    flex-direction: column;
     width: 305px;
     height: 263px;
     border-radius: 10px;
