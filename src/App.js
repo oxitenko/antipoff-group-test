@@ -35,13 +35,13 @@ function App() {
 
     return (<main className="App">
         <Switch>
-            <Route path="/signup">
+            <Route path="/antipoff-group-test/signup">
                 <SignUp/>
             </Route>
-            <ProtectedRoute exact path="/" component={Main}/>
-            <ProtectedRoute exact path="/about-user/:id" component={AboutUser}/>
+            <ProtectedRoute exact path="/antipoff-group-test" component={Main}/>
+            <ProtectedRoute exact path="/antipoff-group-test/about-user/:id" component={AboutUser}/>
             <Route>
-                {isLogin ? <Redirect to="/"/> : <Redirect to="/signup"/>}
+                {isLogin ? <Redirect to="/antipoff-group-test"/> : <Redirect to="/antipoff-group-test/signup"/>}
             </Route>
         </Switch>
     </main>);

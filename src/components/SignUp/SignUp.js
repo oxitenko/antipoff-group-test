@@ -34,7 +34,7 @@ export const SignUp = () => {
             const token = uuidv4();
             localStorage.setItem("token", token);
             dispatch(setIsLogin(true));
-            history.push("/")
+            history.push("/antipoff-group-test")
             dispatch(resetForm());
         }
         return

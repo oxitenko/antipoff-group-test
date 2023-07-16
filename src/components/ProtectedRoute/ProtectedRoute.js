@@ -7,7 +7,7 @@ function ProtectedRoute({component: Component, path, ...rest}) {
 
     return (<Route
         {...rest}
-        render={props => isLogin ? (<Component {...props} />) : (<Redirect to="/signup"/>)}
+        render={props => isLogin ? (<Component {...props} />) : (<Redirect to="/antipoff-group-test/signup"/>)}
     />);
 }
 
