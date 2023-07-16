@@ -21,7 +21,7 @@ const Main = () => {
         } else {
             setPagination(4)
         }
-    },[windowSize.width]);
+    }, [windowSize.width]);
 
     return (<>
         <div className="team">
