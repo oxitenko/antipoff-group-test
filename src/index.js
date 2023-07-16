@@ -6,7 +6,7 @@ import createSagaMiddleware from "redux-saga"
 import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from "react-redux";
 import rootSaga from "./redux-saga/rootSaga";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import usersReducer from "./redux-saga/usersState";
 import signUpReducer from "./redux-saga/signUpState";
 import isLoginReducer from "./redux-saga/isLoginedState"
@@ -23,9 +23,9 @@ saga.run(rootSaga)
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<BrowserRouter>
+root.render(<HashRouter>
     <Provider store={store}>
         <App/>
     </Provider>
-</BrowserRouter>);
+</HashRouter>);
 
