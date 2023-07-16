@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/antipoff-group-test/static/css/main.f41473c1.css",
-    "main.js": "/antipoff-group-test/static/js/main.631c89a8.js",
+    "main.js": "/antipoff-group-test/static/js/main.864293b3.js",
     "static/media/exitIcon.svg": "/antipoff-group-test/static/media/exitIcon.029da92b45a01830dacb5be599ea4d49.svg",
     "index.html": "/antipoff-group-test/index.html",
     "static/media/arrowDown.svg": "/antipoff-group-test/static/media/arrowDown.5b35d712268c57e35a049a14ad8cceba.svg",
@@ -10,10 +10,10 @@
     "static/media/mailIcon.svg": "/antipoff-group-test/static/media/mailIcon.4a06644bca14b14b7ec2f43622c0d9b9.svg",
     "static/media/heartIcon.svg": "/antipoff-group-test/static/media/heartIcon.061e171d2a52e699ffb3579ec85fbc42.svg",
     "main.f41473c1.css.map": "/antipoff-group-test/static/css/main.f41473c1.css.map",
-    "main.631c89a8.js.map": "/antipoff-group-test/static/js/main.631c89a8.js.map"
+    "main.864293b3.js.map": "/antipoff-group-test/static/js/main.864293b3.js.map"
   },
   "entrypoints": [
     "static/css/main.f41473c1.css",
-    "static/js/main.631c89a8.js"
+    "static/js/main.864293b3.js"
   ]
 }
